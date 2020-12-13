@@ -1,0 +1,57 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "",
+    "publicUrlPrefix": ""
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "./src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "pKfeNtvsdnYFPhvQDjNPYX",
+      "projectName": "TestComponents",
+      "version": "latest",
+      "cssFilePath": "plasmic/test_components/plasmic_test_components.module.css",
+      "components": [
+        {
+          "id": "8pNuDAnbnA",
+          "name": "Doggy",
+          "type": "managed",
+          "projectId": "pKfeNtvsdnYFPhvQDjNPYX",
+          "renderModuleFilePath": "plasmic/test_components/PlasmicDoggy.tsx",
+          "importSpec": {
+            "modulePath": "Doggy.tsx"
+          },
+          "cssFilePath": "plasmic/test_components/PlasmicDoggy.module.css",
+          "scheme": "blackbox"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "_6Ho93p-P",
+          "name": "website-donate-mobile.jpg",
+          "filePath": "plasmic/test_components/images/websiteDonateMobilejpg.jpeg"
+        }
+      ],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "cliVersion": "0.1.75"
+}

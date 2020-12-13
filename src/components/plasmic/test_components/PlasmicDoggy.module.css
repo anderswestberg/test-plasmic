@@ -1,0 +1,76 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(113, 149, 149);
+  width: 348px;
+  height: 275px;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+}
+.img {
+  position: relative;
+  object-fit: contain;
+  width: 100px;
+  height: 131px;
+  flex-shrink: 0;
+  border: 5px solid rgb(255, 255, 255);
+}
+.root .img:hover {
+  border-color: rgb(231, 214, 214);
+}
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-color: rgb(175, 199, 211);
+  width: 305px;
+  height: 62px;
+  flex-shrink: 0;
+  border: 1px solid rgb(7, 7, 18);
+}
+.box > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.box > :global(.__wab_flex-container) > *,
+.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 5px;
+}
+.textBox {
+  position: relative;
+  width: 180px;
+  background-color: rgba(79, 174, 221, 0.2);
+  flex-shrink: 0;
+}
+.root .textBox:hover {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-bottom-color: rgb(0, 0, 0);
+  border-width: 1px;
+}
+.button {
+  position: relative;
+  background-color: rgb(180, 201, 214);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.root .button:hover {
+  background-color: rgb(130, 173, 205);
+}
+.root .button:focus {
+  outline: none;
+  border-width: 2px;
+}
+.root .button:active {
+  background-color: rgb(50, 108, 144);
+  color: rgb(255, 255, 255);
+}
